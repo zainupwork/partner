@@ -8,6 +8,18 @@
     <title>Jumpgram - Grow Your Instagram</title>
     <meta name="description" content="Jumpgram - Grow Your Instagram" />
     <link rel="stylesheet" href="styles.css" />
+
+    <script type="text/javascript">
+      function redirectUrl()
+    {
+      var email = document.getElementById('prog_site').value;
+      var url = 'https://bit.ly/3KbOTiA';
+        window.location=url;
+
+    }
+
+    </script>
+    
   </head>
   <body>
     <header>
@@ -40,7 +52,7 @@
           class="input-text"
         />
         <p class="urgent-bar">Hurry Up! &nbsp<span>103</span> out of 120 spots taken</p>
-        <input type="button" value="Gain Access" class="submit-btn" onclick="window.location.replace('https://bit.ly/3KbOTiA/?user='+document.getElementById('prog_site').value.replace(/@/g, '')); return true;"></input>
+        <input type="button" value="Gain Access" class="submit-btn" onclick="redirectUrl();"></input>
       </div>
     </main>
   </body>
