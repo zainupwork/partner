@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.png">
+    <title>Jumpgram - Grow Your Instagram</title>
+    <meta name="description" content="Jumpgram - Grow Your Instagram" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="./images/612e56a6c2b4c1db6cd963f4_NewProject500.png" alt="">
+      </nav>
+    </header>
+    <main class="card">
+      <div class="card-image imgOne ">
+        <img src="./images/hand-image-p-1080.png" alt="" />
+      </div>
+      <div class="card-image imgTwo">
+        <!-- <div class="imgLogo"><img src="./images/jg.png" alt=""></div> -->
+        <img src="./images/ezgif-6-1c934664f723.gif" alt="" />
+      </div>
+      <div class="card-body">
+        <h1>Your Instagram was selected!🔥</h1>
+        <h2>
+          Our team <span>loves</span> your <strong>Insta.</strong> <br />We see
+          potential.
+        </h2>
+        <h3>Proceed below to gain access to Jumpgram &nbsp&nbsp👇</h3>
+        <p></p>
+        <input
+          type="text"
+          placeholder="Your Instagram @Username"
+          value=""
+          name="prog_site"
+          id="prog_site"
+          class="input-text"
+        />
+        <p class="urgent-bar">Hurry Up! &nbsp<span>103</span> out of 120 spots taken</p>
+        <input type="button" value="Gain Access" class="submit-btn" onclick="window.location.replace('http://jumpgram.co/?user='+document.getElementById('prog_site').value.replace(/@/g, '')); return true;"></input>
+      </div>
+    </main>
+  </body>
+</html>
