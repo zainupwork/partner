@@ -52,7 +52,11 @@
           class="input-text"
         />
         <p class="urgent-bar">Hurry Up! &nbsp<span>103</span> out of 120 spots taken</p>
-        <input type="button" value="Gain Access" class="submit-btn" onclick="redirectUrl();"></input>
+        <input type="button" value="Gain Access" class="submit-btn" onclick="window.location.replace('http://jumpgram.co/?user='+document.getElementById('prog_site').value.replace(/@/g, '')); return true;"></input>
+      </div>
+    </main>
+  </body>
+</html>
       </div>
     </main>
   </body>
